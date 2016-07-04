@@ -4,7 +4,7 @@ Markdown==2.6.3
 coreapi==1.23.1
 
 -e git+git://github.com/tomchristie/django-rest-framework.git@7236af32f8993abb642cf36f0e9b1dd4facbeb53#egg=django-rest-framework
--e git+git://github.com/marcgibbons/core-api-swagger.git@0dc7f1eba1557cc9c402ba0239c12b189b1209ab#egg=core-api-swagger
+-e git+git://github.com/marcgibbons/core-api-swagger.git@2a58bb551f6f12af59e46a5ca44af5945376030d#egg=core-api-swagger
 
 # heroku
 # run these commands to setup heroku properly

@@ -3,6 +3,7 @@
 *~
 .*
 env
+coreapi_swagger
 
 # Accept these files in the repository
 !.gitignore

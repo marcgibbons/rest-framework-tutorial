@@ -157,6 +157,9 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
 }
 
+LOGIN_URL = 'rest_framework:login'
+LOGOUT_URL = 'rest_framework:logout'
+
 import os
 if os.environ.get('HEROKU'):  # heroku config:set HEROKU=1
     import dj_database_url
